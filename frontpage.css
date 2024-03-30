@@ -128,39 +128,98 @@ table {
 
 body {
   color: black;
-  margin: 40px;
-  
+  background-color: white;
+  margin-top: 70px;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 1870px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  height: 100%;
 }
 .main-container {
   display: flex;
-  margin-top: 40px;
+  flex-direction: column;
+  width: 2000px;
+  margin-right: 70px;
   
 }
+
 .sidebar {
-  flex-grow: 1;
-  background-color: gray;
+  flex-shrink: 1;
+  background-color:#B30623;
   display: flex;
-  width: auto;
-  margin-left: 40px;
+  width: 30%;
+
+  border-radius: 10px;
+
+}
+.frontpage {
+  flex-grow: 1;
+  display: flex;
+  height: 35%;
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+.mid-bar {
+  flex-grow: 1;
+  display: flex;
 }
 .main {
   flex-grow: 1;
   background-color: lightcoral;
   display: flex;
-  min-width: auto;
-  height: calc(1490px - 340px);
+  height: 35%;
+
+  border-radius: 10px;
 }
+
 .head {
   flex-grow: 1;
-  background-color: aquamarine;
-  height: 300px;
+  background-color: #B30623;
+  height: 170px;
   display: flex;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+.head-logo{
+  flex-grow: 1;
+  align-self: flex-start;
+  margin-top:45px;
+  margin-left: 60px;
+}
+.head-buttons {
+  align-self: flex-end;
+  color: white;
+  margin-bottom: 45px;
+  margin-right: 50px;
+}
+.head-buttons button{
+  margin-inline-start: 80px ;
+  margin-inline-end: 30px;
+  background-color: #B30623;
+  border-color: #B30623;
+  border-style: hidden;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+
 }
 
 p {
   margin: auto;
 }
-
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min--moz-device-pixel-ratio: 2),
@@ -168,9 +227,6 @@ p {
   only screen and (min-device-pixel-ratio: 2),
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
-  .layout {
-    
-  }
   
-}
 
+}
