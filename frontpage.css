@@ -930,7 +930,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
   .mobile1-foot {
     height: 21%;
-    background-color: darkseagreen;
+    background-color: white;
     display: flex;
     flex-direction: column;
   }
