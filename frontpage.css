@@ -162,7 +162,8 @@ table {
     display: flex;
     margin-bottom: 40px;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 1.5px solid black;
+    box-shadow: 0px 5px 10px lightgray;
   }
 
   .head-logo {
@@ -188,7 +189,7 @@ table {
     font-optical-sizing: auto;
     font-weight: 320;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-decoration: none;
   }
 
@@ -196,6 +197,7 @@ table {
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    
   }
 
   .inner-main-container {
@@ -212,6 +214,7 @@ table {
     border-radius: 10px;
     overflow: hidden;
     position: relative;
+    box-shadow: 0px 5px 10px lightgrey;
   }
 
   .mainpic img {
@@ -220,6 +223,8 @@ table {
     bottom: 4rem;
     height: 35rem;
     width: 100%;
+
+   
   }
 
   .mainpic h1 {

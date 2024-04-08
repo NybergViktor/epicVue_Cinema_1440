@@ -1,18 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Booking Info</title>
-    <link rel="stylesheet" href="booking-info.css">
-</head>
-<body>
-    <header></header>
-    <main class="form">
+    <link rel="stylesheet" href="booking-info.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head-logo">
+        <a href="index.html">
+          <img src="logo.png" alt="logo" style="height: 25px; width: 110px" />
+        </a>
+      </div>
 
+      <div class="head-buttons">
+        <a href="#">NOW PLAYING</a>
+        <a href="#">COMING SOON</a>
+        <a href="#">ABOUT</a>
+      </div>
+      <div class="mobile-3">
+        <section class="dropdown-container">
+          <nav id="navbar" class="navigation" role="navigation">
+            <input id="toggle-dropdown" type="checkbox" />
+            <label class="dropdown" for="toggle-dropdown">
+              <div class="top"></div>
+              <div class="middle"></div>
+              <div class="bottom"></div>
+            </label>
 
-        
+            <nav class="menu-dropdown">
+              <a class="link1" href="index.html">HOME</a>
+              <a class="link1" href="index.html">NOW PLAYING</a>
+              <a class="link1" href="index.html">COMING SOON</a>
+              <a class="link1" href="index.html">ABOUT</a>
+              <a class="link1" href="#">Contact</a>
+            </nav>
+          </nav>
+        </section>
+        <a href="#">TICKETS</a>
+      </div>
+    </header>
+    <main>
+      <div class="form-container">
+        <h1>BOOKING INFO</h1>
+        <form>
+          <input
+            type="text"
+            id="full-name"
+            name="full-name"
+            placeholder="Full Name"
+          /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+          /><br />
+          <input
+            type="number"
+            id="phone-number"
+            name="phone-number"
+            placeholder="Phone Number"
+          /><br />
+        </form>
+        <div class="seats">
+          <p>SEATS:</p>
+        </div>
+        <div class="seat-boxes-container">
+          <div class="seat-box">
+            <p>19</p>
+          </div>
+          <div class="seat-box">
+            <p>20</p>
+          </div>
+        </div>
+        <div class="book-now-button">
+          <a href="#">BOOK NOW!</a>
+        </div>
+      </div>
     </main>
-    
-</body>
+  </body>
 </html>
