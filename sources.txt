@@ -1,0 +1,4 @@
+* Dropdown menu inspiration: https://codepen.io/ngochuynh/pen/yKrvVZ
+
+* Hide scrollabr: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp
+
