@@ -613,6 +613,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     flex-wrap: wrap;
   }
 
+
   .seat-left {
     display: flex;
     flex-direction: row;
@@ -682,6 +683,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     cursor: pointer;
     margin-top: 20px;
     font-size: 1em;
+    
   }
 
   button:hover {
