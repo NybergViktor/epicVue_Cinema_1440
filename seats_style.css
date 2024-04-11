@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 @media only screen and (min-width: 1440px) {
+
+  
   html {
     width: 1440px;
     padding-left: 5rem;
@@ -666,6 +668,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
   .seat-label.available:hover,
   .seat:checked + .seat-label.available {
     background-color: #fc0;
+    
   }
 
   .seat-label.reserved,
