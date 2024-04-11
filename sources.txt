@@ -2,3 +2,6 @@
 
 * Hide scrollabr: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp
 
+* localStorage and array javascript:
+    *   https://www.3schools.in/2022/07/store-selected-checkbox-value-in-array.html
+    *   https://bobbyhadz.com/blog/store-array-or-object-in-localstorage-using-javascript#how-to-store-an-array-of-objects-in-localstorage-using-javascript
