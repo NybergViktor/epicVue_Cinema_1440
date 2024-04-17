@@ -18,6 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     li.innerHTML = element;
     li.innerHTML = li.innerHTML.replace(/seat/g, "");
+    li.innerHTML = li.innerHTML.replace(/mobile-/g, "");
     ul.appendChild(li);
   });
+
+  
 });

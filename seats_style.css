@@ -5,8 +5,6 @@
   box-sizing: border-box;
 }
 @media only screen and (min-width: 1440px) {
-
-  
   html {
     width: 1440px;
     padding-left: 5rem;
@@ -317,13 +315,14 @@
     height: 2.5rem;
     margin-bottom: 1.5rem;
   }
-  .below-seats button p {
+  .book-button {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-size: 1rem;
     color: white;
+    text-decoration: none;
   }
 }
 
@@ -377,16 +376,14 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     margin-top: 0.4rem;
   }
 
-
   .menu-dropdown a {
     color: #fff;
     text-decoration: none;
   }
-  
-  .dropdown-container{
-     height: 100%;
+
+  .dropdown-container {
+    height: 100%;
   }
-  
 
   .dropdown {
     position: relative;
@@ -395,11 +392,10 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
-
   }
-  
+
   .dropdown div {
-    background-color:white;
+    background-color: white;
     position: relative;
     width: 35px;
     height: 3px;
@@ -407,35 +403,34 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
-  
+
   #toggle-dropdown {
     display: none;
   }
-  
+
   #toggle-dropdown:checked + .dropdown .top {
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
     margin-top: 22.5px;
     margin-top: 21.5rem;
   }
-  
+
   #toggle-dropdown:checked + .dropdown .middle {
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     margin-top: -5px;
-    
   }
-  
+
   #toggle-dropdown:checked + .dropdown .bottom {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
-  
+
   #toggle-dropdown:checked ~ .menu-dropdown {
     height: 340px;
     margin-top: 20rem;
   }
-  
+
   .menu-dropdown {
     width: 100%;
     background-color: #b30623;
@@ -451,26 +446,26 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     text-align: center;
     height: 0px;
     overflow: hidden;
-    transition: height .4s ease;
+    transition: height 0.4s ease;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  
+
   .menu-dropdown a:first-child {
     margin-top: 10px;
   }
-  
+
   .menu-dropdown a:last-child {
     margin-bottom: 10px;
   }
-  
+
   .link1 {
     width: 100%;
     margin: 0;
     padding: 10px 0;
-    font: 700 20px 'Oswald', sans-serif;
+    font: 700 20px "Oswald", sans-serif;
   }
-  
+
   .link1:hover {
     background-color: #fff;
     color: lightgray;
@@ -615,7 +610,6 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     flex-wrap: wrap;
   }
 
-
   .seat-left {
     display: flex;
     flex-direction: row;
@@ -668,7 +662,6 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
   .seat-label.available:hover,
   .seat:checked + .seat-label.available {
     background-color: #fc0;
-    
   }
 
   .seat-label.reserved,
@@ -686,7 +679,6 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     cursor: pointer;
     margin-top: 20px;
     font-size: 1em;
-    
   }
 
   button:hover {

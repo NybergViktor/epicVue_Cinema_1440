@@ -235,7 +235,7 @@ table {
   #seat-boxes-container {
     position: relative;
     width: 80%;
-    height: auto;
+    height: 3rem;
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 1rem;
@@ -290,12 +290,9 @@ table {
     border-style: none;
     width: 80%;
     height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 2rem;
   }
-  .book-now-button a {
+  .book-button {
     text-decoration: none;
     color: #b30623;
     font-family: "Oswald", sans-serif;
@@ -303,6 +300,9 @@ table {
     font-weight: 400;
     font-style: normal;
     font-size: 1.2rem;
+    height: 100%;
+    width: 100%;
+    margin: auto;
   }
 }
 
@@ -504,35 +504,32 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     font-size: 1.2rem;
   }
 
-  .seat-boxes-container {
+  #seat-boxes-container {
     position: relative;
     width: 80%;
     height: 2rem;
-    display: grid;
     flex-direction: row;
     flex-wrap: wrap;
-    grid-template-columns: 1fr repeat(x, 1fr);
     margin-bottom: 1rem;
     overflow-y: scroll;
     display: flex;
   }
 
   /* Hide scrollbar for Chrome, Safari and Opera. sopurce w3school*/
-  .seat-boxes-container::-webkit-scrollbar {
+  #seat-boxes-container::-webkit-scrollbar {
     display: none;
   }
 
-  .seat-box {
+  #seat-boxes-container li {
     margin-right: 5px;
+    margin-bottom: 5px;
     height: 20px;
-    width: 20px;
+    width: auto;
     background-color: white;
     border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .seat-box p {
     color: black;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
