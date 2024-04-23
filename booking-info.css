@@ -210,8 +210,8 @@ table {
     font-weight: 400;
     font-style: normal;
     align-self: flex-start;
-    font-size: 2rem;
-    margin-left: 3.5rem;
+    font-size: 1.8rem;
+    margin-left: 3.1rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
@@ -261,12 +261,12 @@ table {
     color: black;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     font-variation-settings: "slnt" 0;
     font-size: 0.8rem;
   }
-  #seat-boxes-container li p{
+  #seat-boxes-container li p {
     margin-right: 5rem;
   }
   form {
@@ -297,7 +297,7 @@ table {
     color: #b30623;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 1.2rem;
     height: 100%;
@@ -483,7 +483,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     font-weight: 400;
     font-style: normal;
     align-self: flex-start;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
   }
@@ -564,12 +564,12 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     justify-content: center;
     align-items: center;
   }
-  .book-now-button a {
+  .book-button {
     text-decoration: none;
     color: #b30623;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 1.2rem;
   }

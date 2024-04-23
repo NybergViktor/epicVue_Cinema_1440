@@ -8,6 +8,7 @@
   </head>
   <body>
     <script src="index.js"></script>
+    <script src="seat.js"></script>
 
     <header>
       <div class="head-logo">
@@ -68,18 +69,18 @@
           <div class="length">
             <img src="photos/clock.svg" alt="clock-icon" />
             <p class="mini-title">Length</p>
-            <p>03:14:50</p>
+            <p class="time-p">03:14:50</p>
           </div>
 
           <div class="language">
             <img src="photos/pin-group.svg" alt="pin-icon" />
             <p class="mini-title">Language</p>
-            <p>English</p>
+            <p class="english-p">English</p>
           </div>
         </div>
       </div>
     </main>
-    <article class="seats-container">
+    <article id="seats-container">
       <section class="above-seats">
         <h2>CHOOSE SEATS</h2>
         <div>
@@ -371,42 +372,66 @@
             <label id="corner" for="seat1-0" class="seat-label none"></label>
 
             <input type="checkbox" id="seat1-1" class="seat" />
-            <label for="seat1-1" class="seat-label available"></label>
+            <label for="seat1-1" class="seat-label available">
+              <p>1</p>
+            </label>
 
             <input type="checkbox" id="seat1-2" class="seat" />
-            <label for="seat1-2" class="seat-label available"></label>
+            <label for="seat1-2" class="seat-label available">
+              <p>2</p>
+            </label>
 
             <input type="checkbox" id="seat1-3" class="seat" />
-            <label for="seat1-3" class="seat-label available"></label>
+            <label for="seat1-3" class="seat-label available">
+              <p>3</p>
+            </label>
 
             <input type="checkbox" id="seat1-4" class="seat" />
-            <label for="seat1-4" class="seat-label available"></label>
+            <label for="seat1-4" class="seat-label available">
+              <p>4</p>
+            </label>
 
             <input type="checkbox" id="seat1-5" class="seat" />
-            <label for="seat1-5" class="seat-label available"></label>
+            <label for="seat1-5" class="seat-label available">
+              <p>5</p>
+            </label>
 
             <input type="checkbox" id="seat1-6" class="seat" />
-            <label for="seat1-6" class="seat-label available"></label>
+            <label for="seat1-6" class="seat-label available">
+              <p>6</p>
+            </label>
 
             <input type="checkbox" id="seat1-7" class="seat" />
-            <label for="seat1-7" class="seat-label available"></label>
+            <label for="seat1-7" class="seat-label available">
+              <p>7</p>
+            </label>
 
             <input type="checkbox" id="seat1-8" class="seat" />
-            <label for="seat1-8" class="seat-label available"></label>
+            <label for="seat1-8" class="seat-label available">
+              <p>8</p>
+            </label>
 
             <input type="checkbox" id="seat1-9" class="seat" />
-            <label for="seat1-9" class="seat-label available"></label>
+            <label for="seat1-9" class="seat-label available">
+              <p>9</p>
+            </label>
 
             <input type="checkbox" id="seat1-10" class="seat" />
-            <label for="seat1-10" class="seat-label available"></label>
+            <label for="seat1-10" class="seat-label available">
+              <p>10</p>
+            </label>
 
             <input type="checkbox" id="seat1-11" class="seat" />
-            <label for="seat1-11" class="seat-label available"></label>
+            <label ifor="seat1-11" class="seat-label available">
+              <p>11</p>
+            </label>
           </div>
           <!-- row 2 -->
           <div class="row2">
             <input type="checkbox" id="seat2-1" class="seat" />
-            <label for="seat2-1" class="seat-label available"></label>
+            <label for="seat2-1" class="seat-label available">
+              
+            </label>
 
             <input type="checkbox" id="seat2-2" class="seat" />
             <label for="seat2-2" class="seat-label available"></label>
@@ -978,7 +1003,14 @@
         </div>
       </section>
       <section class="below-seats">
-        <div>
+        <div class="thin-line"></div>
+        <div id="test">
+          <label
+            for="available"
+            class="seat-label"
+            id="seat-grey-example"
+          ></label>
+          <p>Available &nbsp; &nbsp &nbsp; &nbsp;</p>
           <label
             for="Selected"
             class="seat-label"
@@ -990,18 +1022,10 @@
             class="seat-label"
             id="seat-red-example"
           ></label>
-          <p>Reserved &nbsp; &nbsp &nbsp; &nbsp;</p>
-          <label
-            for="available"
-            class="seat-label"
-            id="seat-grey-example"
-          ></label>
-          <p>Available</p>
+          <p>Reserved</p>
         </div>
         <button onclick="clickedSeats()">
-          <a href="booking.html" class="book-button">
-            BOOK NOW!
-          </a>
+          <a href="booking.html" class="book-button"> BOOK NOW! </a>
         </button>
       </section>
     </article>

@@ -21,6 +21,4 @@ document.addEventListener("DOMContentLoaded", function () {
     li.innerHTML = li.innerHTML.replace(/mobile-/g, "");
     ul.appendChild(li);
   });
-
-  
 });

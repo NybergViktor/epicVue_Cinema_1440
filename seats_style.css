@@ -113,12 +113,21 @@
 
   .pic-genre,
   .mini-title {
-    color: lightgray;
+    color: rgb(148, 148, 148);
   }
+
+  .english-p {
+    font-weight: 800;
+    margin-left: -0.7rem;
+  }
+
+  .time-p {
+    font-weight: 800;
+  }
+
   .below-pic-content p {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
     font-style: normal;
     font-variation-settings: "slnt" 0;
     font-size: 0.8rem;
@@ -146,7 +155,7 @@
     align-self: center;
   }
 
-  .seats-container {
+  #seats-container {
     background-color: white;
     display: flex;
     margin-top: 2rem;
@@ -244,6 +253,19 @@
     margin-right: 3px;
     position: relative;
   }
+
+  .theater-desktop label p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.8rem;
+    position: absolute;
+    margin-block: 5px;
+    margin-left: 8px;
+  }
+
+  
 
   .seat-label.available:hover,
   .seat:checked + .seat-label.available {
@@ -590,8 +612,8 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     margin-bottom: 1rem;
   }
 
-  .seats-container {
-    box-shadow: 0px 0px 10px lightgray;
+  #seats-container {
+    box-shadow: 0px 0px 10px rgb(241, 241, 241);
     height: max-content;
     flex-direction: column;
     display: flex;
@@ -644,7 +666,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     cursor: default;
   }
   #wide-seat {
-    width: 35px;
+    width: 45px;
   }
 
   .seat-label {
@@ -705,6 +727,15 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     align-items: center;
     margin-top: 1rem;
   }
+
+  .thin-line {
+    height: 1px;
+    width: 85%;
+    border: rgb(225, 225, 225) 1px solid;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
   .below-seats div {
     display: flex;
     flex-direction: row;
@@ -731,7 +762,8 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     border-style: none;
     border-radius: 6px;
   }
-  .below-seats button p {
+  .book-button {
+    text-decoration: none;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
