@@ -17,4 +17,4 @@ med procent eller ibland rem. Jag valde att inte göra om sidan, jag skickar in 
 
 
 
-- Källhänvisning under resources.txt
+- Källhänvisning under sources.txt
