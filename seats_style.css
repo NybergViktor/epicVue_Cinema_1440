@@ -632,6 +632,17 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     flex-wrap: wrap;
   }
 
+  .theater-mobile label p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.8rem;
+    position: absolute;
+    margin-block: 5px;
+    margin-left: 8px;
+  }
+
   .seat-left {
     display: flex;
     flex-direction: row;
