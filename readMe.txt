@@ -1,5 +1,5 @@
 
-OBS designad efter macbook air,  1440 bred
+OBS designad efter macbook air,  1440*1024
 
 i Google Chrome !, Ser galet ut i Safari, ser hyfsat ut i firefox men absolut bäst i Google Chrome.
 
