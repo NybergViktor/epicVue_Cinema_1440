@@ -14,3 +14,7 @@ Idag två/tre veckor efter denna uppgift blev klar upplever jag det mycket enkla
 med procent eller ibland rem. Jag valde att inte göra om sidan, jag skickar in den som den är så kommer vi få se hur mycket bättre det kommer se ut i nästa inlämning.
 
 //Viktor
+
+
+
+- Källhänvisning under resources.txt
