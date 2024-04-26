@@ -10,8 +10,8 @@ Jag visste att detta projekt itne behövde vara responsivt, samt att jag försö
 
 Som du kommer se har jag jobbat mycket efter detta, bla är vissa delar positionerade efter pixlar osv, samt att media queries bara fungerar på angivna storlekar.... 
 
-Idag två/tre veckor efter denna uppgift blev klar upplever jag det mycket enklare och snyggare att arbeta responsivt, dvs att hålla saker centered/start/end, arbeta mer med containers (parent och child), arbete mer med JS, samt att arbeta 
-med procent eller ibland rem. Jag valde att inte göra om sidan, jag skickar in den som den är så kommer vi få se hur mycket bättre det kommer se ut i nästa inlämning.
+Idag två/tre veckor efter denna uppgift blev klar upplever jag det mycket enklare och snyggare att arbeta responsivt, dvs att hålla saker centered/start/end, arbeta mer med containers (parent och child), arbete mer med JS, samt att arbeta med procent eller ibland rem.
+Jag valde att inte göra om sidan, jag skickar in den som den är så kommer vi få se hur mycket bättre det kommer se ut i nästa inlämning.
 
 //Viktor
 
